@@ -1,0 +1,17 @@
+<%- include('../partials/header') %>
+<%- include('../partials/navigation') %>
+
+<div class="container">
+    <h2>Client List</h2>
+    <ul class="client-list">
+        <% clients.forEach(client => { %>
+            <li>
+                <strong><%= client.name %></strong>
+                (Risk: <%= client.riskCategory %>)
+                - <a href="/clients/<%= client.id %>">View Details</a>
+            </li>
+        <% }) %>
+    </ul>
+</div>
+
+<%- include('../partials/footer') %>

@@ -1,0 +1,14 @@
+<%- include('../partials/header') %>
+<%- include('../partials/navigation') %>
+
+<div class="container">
+    <h2><%= client.name %></h2>
+    <p><strong>Advisor:</strong> <%= client.advisor %></p>
+    <p><strong>Risk Category:</strong> <%= client.riskCategory %></p>
+    <p><strong>Assets Under Management:</strong> <%= client.assetsUnderManagement %></p>
+    <p><strong>Email:</strong> <%= client.email %></p>
+
+    <a href="/clients" class="back-link">Back to Client List</a>
+</div>
+
+<%- include('../partials/footer') %>

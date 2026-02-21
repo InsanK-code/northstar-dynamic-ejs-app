@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Apex Manufacturing Ltd.",
+    "advisor": "Sarah Thompson",
+    "riskCategory": "Moderate",
+    "assetsUnderManagement": "$2,500,000",
+    "email": "contact@apexmfg.com"
+  },
+  {
+    "id": 2,
+    "name": "BlueWave Technologies",
+    "advisor": "Michael Chen",
+    "riskCategory": "High",
+    "assetsUnderManagement": "$4,200,000",
+    "email": "info@bluewave.com"
+  },
+  {
+    "id": 3,
+    "name": "GreenField Holdings",
+    "advisor": "David Patel",
+    "riskCategory": "Low",
+    "assetsUnderManagement": "$1,200,000",
+    "email": "admin@greenfield.com"
+  }
+]
